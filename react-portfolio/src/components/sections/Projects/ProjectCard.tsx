@@ -19,7 +19,7 @@ export default function ProjectsCard({
 }: ProjectCardProps) {
   return (
     <div className="">
-      <div className="h-full flex flex-col border-black border max-w-80 font-Poppins">
+      <div className="h-full flex flex-col border-black dark:border-white dark:text-white border max-w-80 font-Poppins">
         <div className="">
           <img className="w-80" src={projectImage} />
         </div>

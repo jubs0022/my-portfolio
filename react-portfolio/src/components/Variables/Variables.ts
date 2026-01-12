@@ -9,3 +9,5 @@ export const setThemeGlobal = (newTheme: "light" | "dark") => {
   document.documentElement.classList.toggle("dark", newTheme === "dark");
   window.dispatchEvent(new CustomEvent("themeChange", { detail: newTheme }));
 };
+
+

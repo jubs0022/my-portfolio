@@ -5,9 +5,11 @@ export default function () {
     <div className="w-full flex flex-col mx-auto justify-center font-Poppins mt-11 px-8 dark:text-white">
       <div className="flex justify-between">
         <p className="font-extrabold sm:text-lg xl:text-xl">BACK-END</p>
-        <p className="font-normal sm:text-lg xl:text-xl dark:text-[#92B8D6]">
-          See More &gt;
-        </p>
+        <a href="/portfolio/skills">
+          <p className="font-normal sm:text-lg xl:text-xl text-[#0267ED] dark:text-[#92B8D6] cursor-pointer">
+            See More &gt;
+          </p>
+        </a>
       </div>
 
       <div className="flex ml-8">

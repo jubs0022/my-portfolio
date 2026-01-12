@@ -24,7 +24,7 @@ export default function SocialLinks() {
       >
         <img
           className="w-8 mr-[20px] transform transition-transform duration-300 hover:scale-110 cursor-pointer"
-          src="images/facebook.png"
+          src="/images/facebook.png"
           alt=""
         />
       </a>
@@ -35,7 +35,7 @@ export default function SocialLinks() {
       >
         <img
           className="w-8  transform transition-transform duration-300 hover:scale-110 cursor-pointer"
-          src="images/linkedin.png"
+          src="/images/linkedin.png"
           alt=""
         />
       </a>
@@ -46,7 +46,7 @@ export default function SocialLinks() {
       >
         <img
             className="w-8 ml-[20px] transform transition-transform duration-300 hover:scale-110 cursor-pointer"
-            src="images/gmail.png"
+            src="/images/gmail.png"
             alt=""
           />
       </a>

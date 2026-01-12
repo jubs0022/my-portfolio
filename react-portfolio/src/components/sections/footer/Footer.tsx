@@ -14,7 +14,7 @@ const [theme, setTheme] = useState<"light" | "dark">(getTheme());
   }, []);
   return (
     <footer>
-      <div className="max-w-screen-xl w-screen h-20 flex  justify-between items-center mx-auto  font-Poppins pt-[19px]">
+      <div className="max-w-screen-xl w-screen h-20 flex dark:text-white justify-between items-center mx-auto  font-Poppins pt-[19px]">
         <div className="xl:flex font-normal   ">
           <p className="text-[12px] xl:text-[16px]">© 2025 JUBERT Portfolio</p>
         </div>
@@ -31,7 +31,7 @@ const [theme, setTheme] = useState<"light" | "dark">(getTheme());
           >
             <img
               className="w-8 transform transition-transform duration-300 hover:scale-110 cursor-pointer"
-              src="images/linkedin.png"
+              src="/images/linkedin.png"
               alt=""
             />
           </a>
@@ -53,7 +53,7 @@ const [theme, setTheme] = useState<"light" | "dark">(getTheme());
           >
             <img
               className="w-8 transform transition-transform duration-300 hover:scale-110 cursor-pointer"
-              src="images/gmail.png"
+              src="/images/gmail.png"
               alt=""
             />
           </a>
