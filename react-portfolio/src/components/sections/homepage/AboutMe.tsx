@@ -23,7 +23,7 @@ export default function AboutMe() {
           md:px-7 md:py-3 
           sm:text-sm md:text-base"
         >
-          <Link to="/about">
+          <Link to="/portfolio/about">
             <p>Learn More</p>
           </Link>
       </div>

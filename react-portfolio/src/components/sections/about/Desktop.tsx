@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 import AC from "./AboutCard";
 import DropDown from "./AboutDropDown";
-import ErrorHandling from "../others/ErrorHandling";
 
 export default function About() {
   return (
     <div>
-      <div className="w-full flex place-content-center mx-auto font-Poppins mt-10 dark:hidden">
+      <div className="w-full flex place-content-center mx-auto font-Poppins mt-10 dark:text-white">
         <div className="">
           <img
             className="w-80 rounded-[10px]"
@@ -44,15 +43,12 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="font-Poppins max-w-screen-xl flex place-content-center mx-auto dark:hidden">
+      <div className="font-Poppins max-w-screen-xl flex place-content-center mx-auto dark:text-white">
         <div className="mx-48 mt-20 mb-36">
           <DropDown Type="EDUCATION" />
           <DropDown Type="INTERNSHIP" />
           <DropDown Type="CERTIFICATES" />
         </div>
-      </div>
-      <div className="hidden dark:block dark:mt-[45vh] dark:text-white">
-        <ErrorHandling />
       </div>
     </div>
   );
